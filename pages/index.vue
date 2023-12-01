@@ -26,31 +26,27 @@
       <li>
         <CardsIconCard to="/docs/composants">
           <template #icon>
-            <i
-              class="ri-list-indefinite text-green-500 group-hover:text-green-700"
-            ></i>
+            <i class="ri-plane-line"></i>
           </template>
-          Composants
+          Réservation de vol
         </CardsIconCard>
       </li>
 
       <li>
         <CardsIconCard to="/docs/layouts">
           <template #icon>
-            <i
-              class="ri-layout-line text-blue-500 group-hover:text-blue-700"
-            ></i>
+            <i class="ri-hotel-bed-fill"></i>
           </template>
-          Layouts
+          Réservation d'hôtel
         </CardsIconCard>
       </li>
 
       <li>
         <CardsIconCard to="/docs/icones">
           <template #icon>
-            <i class="ri-heart-line text-red-500 group-hover:text-red-700"></i>
+            <i class="ri-road-map-fill"></i>
           </template>
-          Icones
+          Voyages organisés
         </CardsIconCard>
       </li>
     </ListsGrid>
